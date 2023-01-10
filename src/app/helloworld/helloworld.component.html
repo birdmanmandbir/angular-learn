@@ -1,0 +1,11 @@
+<p>helloworld works!</p>
+<p class="bg-red-300">red</p>
+<p class="text-blue-400">blue</p>
+<p>{{ message }}</p>
+<p
+  [style.color]="isRed ? 'red' : 'black'"
+>color change text</p>
+<button (click)="toggleColor()">toggle color</button>
+
+<p>{{ count }}</p>
+<button (click)="onLogMe()">log count</button>

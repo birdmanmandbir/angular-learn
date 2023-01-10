@@ -25,3 +25,26 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+## Modify
+
+config pnpm:
+
+`ng config cli.packageManager pnpm`
+
+tailwind:
+
+[Install Tailwind CSS with Angular - Tailwind CSS](https://tailwindcss.com/docs/guides/angular)
+
+## How to implement
+
+- [ ] slot
+- [ ] props
+- [ ] tailwind
+- [ ] html补全
+- [ ] eslint
+- [ ] 
+
+
+## Feeling
+- 装饰器和hooks的差别感觉不是很大, 通过依赖注入也能实现组合模式, 就是要记忆下装饰器的配置
